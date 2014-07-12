@@ -177,7 +177,17 @@ h3.header-text{
   background: #7fbbda;
   padding: 50px 0;
   color: #ffffff;
-  height: 600px;
+  height: 100%;
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px) { 
+      .services {
+      background: #7fbbda;
+      padding: 50px 0;
+      color: #ffffff;
+      height: 1000px;
+    }
 }
 
 .service-item {
@@ -201,7 +211,7 @@ i.service-icon {
 .callout {
   color: #ffffff;
   display: table;
-  height: 400px;
+  height: 388px;
   width: 100%;
   background: url(../img/callout.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
