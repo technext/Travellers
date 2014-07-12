@@ -33,6 +33,7 @@ body {
   text-shadow: 2px 2px #00B6E6;
 }
 h1.header-text{
+  margin-top: 140px;
   color: #238C85;
   font-family: 'Lato', cursive;
   font-size: 60px;
