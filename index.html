@@ -16,6 +16,7 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
     </head>
 
@@ -62,8 +63,12 @@
         <div id="about" class="intro">
             <div class="container">   
                 <div class="row">
+                    <div class="col-md-4 col-md-offset-4 text-center">
+                        <h2 class="main-title">About us</h2>
+                        <hr>
+                    </div>
                     <div class="col-lg-offset-1 col-sm-10 col-md-10">
-                        <img src="img/mix1.jpg" class="hidden-xs" alt="Feature-img" align="center" width="100%" height="375">   
+                        <img src="img/mix1.jpg" class="hidden-xs" alt="Feature-img" align="center" width="100%">   
                        <h3 class="title-text">New York, USA</h3>    
                         <p class="lead">Science cuts two ways, of course; its products can be used for both good and evil.</p>
                         <p>You know, being a test pilot isn't always the healthiest business in the world.</p>
@@ -79,7 +84,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-md-offset-4 text-center">
-                        <h2>Our Services</h2>
+                        <h2 class="main-title">Our Services</h2>
                         <hr>
                     </div>
                 </div>
@@ -120,7 +125,7 @@
         <!-- Callout -->
         <div class="callout">
             <div class="vert-text">
-                <h1>Your Travellers Guide</h1>
+                <h1 class="main-title">Your Travellers Guide</h1>
             </div>
         </div>
         <!-- /Callout -->
@@ -131,7 +136,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>Our visited place</h2>
+                    <h2 class="main-title">Our visited place</h2>
                     <hr>
                 </div>
             </div>
@@ -280,50 +285,51 @@
         <!-- /Call to Action -->
 
         <!-- Contact Section -->
-    <section id="contact" class="container parallax4">
-        <!-- Contact Inner -->
-        <div class="inner contact">
+        <div id="contact" class="container parallax4">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <h2 class="main-title">Contact us</h2>
+                <hr>
+            </div>
+            <!-- Contact Inner -->
+            <div class="inner contact">
+                <!-- Form Area -->
+                <div class="contact-form">
+                    <!-- Form -->
+                    <form id="contact-us" method="post" action="#">
+                        <!-- Left Inputs -->
+                        <div class="col-xs-6 animated" data-animation="fadeInLeft" data-animation-delay="300">
+                            <!-- Name -->
+                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                            <!-- Email -->
+                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                            <!-- Subject -->
+                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                        </div><!-- End Left Inputs -->
+                        <!-- Right Inputs -->
+                        <div class="col-xs-6 animated" data-animation="fadeInRight" data-animation-delay="400">
+                            <!-- Message -->
+                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                        </div><!-- End Right Inputs -->
+                        <!-- Bottom Submit -->
+                        <div class="relative fullwidth col-xs-12">
+                            <!-- Send Button -->
+                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
+                        </div><!-- End Bottom Submit -->
+                        <!-- Clear -->
+                        <div class="clear"></div>
+                    </form>
 
-            <!-- Form Area -->
-            <div class="contact-form">
-            
-            
-                <!-- Form -->
-                <form id="contact-us" method="post" action="#">
-                    <!-- Left Inputs -->
-                    <div class="col-xs-6 animated" data-animation="fadeInLeft" data-animation-delay="300">
-                        <!-- Name -->
-                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
-                        <!-- Email -->
-                        <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
-                        <!-- Subject -->
-                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-                    </div><!-- End Left Inputs -->
-                    <!-- Right Inputs -->
-                    <div class="col-xs-6 animated" data-animation="fadeInRight" data-animation-delay="400">
+                    <!-- Your Mail Message -->
+                    <div class="mail-message-area">
                         <!-- Message -->
-                        <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
-                    </div><!-- End Right Inputs -->
-                    <!-- Bottom Submit -->
-                    <div class="relative fullwidth col-xs-12">
-                        <!-- Send Button -->
-                        <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
-                    </div><!-- End Bottom Submit -->
-                    <!-- Clear -->
-                    <div class="clear"></div>
-                </form>
-
-                <!-- Your Mail Message -->
-                <div class="mail-message-area">
-                    <!-- Message -->
-                    <div class="alert gray-bg mail-message not-visible-message">
-                        <strong>Thank You !</strong> Your email has been delivered.
+                        <div class="alert gray-bg mail-message not-visible-message">
+                            <strong>Thank You !</strong> Your email has been delivered.
+                        </div>
                     </div>
-                </div>
 
-            </div><!-- End Contact Form Area -->
-        </div><!-- End Inner -->
-    </section><!-- End Contact Section -->
+                </div><!-- End Contact Form Area -->
+            </div><!-- End Inner -->
+        </div><!-- End Contact Section -->
         
         <div class="map">
             <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3618.727010735933!2d91.837871!3d24.907291700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1404919738144"></iframe>
@@ -334,8 +340,6 @@
             </iframe>
         </div>
         <br />
-       
-
         <!-- /Map -->
 
         <!-- Footer -->
@@ -400,5 +404,4 @@
         </script>
 
     </body>
-
 </html>
