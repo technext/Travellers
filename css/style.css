@@ -71,6 +71,12 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+.service-icon:hover{
+ background: white;
+ color:#7FBBDA;
+ transition:.5s;
+ cursor:pointer;
+}
 
 .vert-text h1 {
   font-family: 'Lato', sans-serif;
