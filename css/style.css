@@ -16,7 +16,38 @@ body {
   height: 100%;
   width: 100%;
 }
-
+.retina{
+  margin: 0;
+  float: left;
+  padding:0 15px 5px 0;
+}
+.light-wrapper {
+    background: #f7f7f7
+}
+.divide50 {
+    width: 100%;
+    height: 50px;
+}
+.divide5 {
+    width: 100%;
+    height: 5px;
+}
+.divide10 {
+    width: 100%;
+    height: 10px;
+}
+.divide15 {
+    width: 100%;
+    height: 15px;
+}
+.divide20 {
+    width: 100%;
+    height: 20px;
+}
+.inner {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .vert-text {
   display: table-cell;
   vertical-align: middle;
@@ -25,6 +56,20 @@ body {
 .main-title{
   font-family: 'Lobster', cursive;
   font-size: 45px;
+}
+#about{
+  font-family: "Lato";
+}
+#about p{
+  font-size: 15px;
+}
+#about h4{
+  font-size: 18px;
+  font-weight: bold;
+}
+#about h5{
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .vert-text h1 {
@@ -61,6 +106,58 @@ h3.header-text{
 }  
 .space{
   margin-top: 70px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  12. PROGRESS BAR
+/*-----------------------------------------------------------------------------------*/
+.progress-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.progress-list p {
+    margin-bottom: 5px
+}
+.progress-list li {
+    margin-bottom: 20px
+}
+.progress-list li em {
+    padding-left: 8px;
+    color: #72b6af;
+    font-style: normal;
+}
+.progress-list li em:before {
+    content: "-";
+    padding-right: 10px;
+    display: inline-block;
+}
+.progress.plain {
+    height: 15px;
+    margin-bottom: 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background: rgba(114,182,175,0.15);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.progress.plain .bar {
+    float: left;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: none;
+    background: #72b6af;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 /* Side Menu */
