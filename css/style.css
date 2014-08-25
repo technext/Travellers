@@ -45,8 +45,8 @@ body {
     height: 20px;
 }
 .inner {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .vert-text {
   display: table-cell;
@@ -549,6 +549,7 @@ footer {
   padding: 100px 0;
   background:url(../img/sky.jpg);
   height: 330px;
+  margin-top: -20px;
 }
 
 .top-scroll {
