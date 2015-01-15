@@ -361,7 +361,6 @@ a#menu-close:hover {
       background: #7fbbda;
       padding: 50px 0;
       color: #ffffff;
-      height: 1000px;
     }
 }
 
@@ -410,8 +409,6 @@ h4.service-title {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 320px;
-  max-width: 675px;
   background-color:black;
   text-align: center;
   cursor: pointer;
@@ -582,7 +579,13 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
-
+ @media(max-width: 450px){
+    figure.effect-zoe p.description{
+      font-size: 14px;
+      line-height: 20px;
+      bottom: 2.5em;
+    }
+ }
 
 /* Call to Action */
 
