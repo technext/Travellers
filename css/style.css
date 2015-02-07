@@ -28,9 +28,19 @@ body {
     width: 100%;
     height: 50px;
 }
+i.fa.fa-bars {
+  font-size: 35px;
+}
 .divide5 {
     width: 100%;
     height: 5px;
+}
+em.header-text {
+padding: 9px 20px;
+position: relative;
+top: 6px;
+color: rgb(223, 88, 137);
+border-radius: 4px;
 }
 .divide10 {
     width: 100%;
@@ -61,16 +71,23 @@ body {
   font-family: "Lato";
   margin: 50px 0px;
 }
-#about p{
-  font-size: 15px;
+#about p {
+  font-size: 16px;
+  line-height: 26px;
 }
 #about h4{
   font-size: 18px;
   font-weight: bold;
+  line-height: 26px;
+}
+ol.color {
+  line-height: 26px;
+  font-size: 16px;
 }
 #about h5{
   font-size: 16px;
   font-weight: bold;
+  line-height: 26px;
 }
 .service-icon:hover{
  background: white;
@@ -80,20 +97,20 @@ body {
 }
 
 .vert-text h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lobster', cursive;
   padding: 0;
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
   text-shadow: 2px 2px rgba(156, 190, 200, 1);
 }
-h1.header-text{
+h1.header-text {
+  font-family: 'Lobster', cursive;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
   margin-top: 140px;
-  color: #238C85;
-  font-family: 'Lato', cursive;
-  font-size: 67px;
+  color: white;
+  font-size: 73px;
   font-weight: bold;
-  text-shadow: 2px 2px 2px rgba(142, 142, 143, 1);
 }
 h3.header-text{
   color: #EC7787;
@@ -104,8 +121,8 @@ h3.header-text{
   }  
 
 .btn-primary {
-  background-color: #6DD1C9;
-  border-color: #6DD1C9;
+  background-color: #228C87;
+  border-color: #228989;
 }
 .btn-primary:hover{
   background-color: #6DD1C9;
@@ -125,12 +142,12 @@ h3.header-text{
 /* --------------------------  button  --------------------------------------------- */
 
 a.header-btn {
-    border: 1px solid rgb(35, 140, 133);
-    background-color: rgb(35, 140, 133);
-    color: #fff;
-    box-shadow: 2px 2px #625862;
-    font-size: 20px;
-    padding: 17px 25px;
+  border: 1px solid rgb(223, 49, 74);
+  background-color: rgba(35, 140, 133, 0);
+  color: #EC7787;
+  /* box-shadow: 2px 2px #625862; */
+  font-size: 20px;
+  padding: 17px 25px;
 }
 
 .header-btn:hover {
@@ -211,19 +228,19 @@ a.header-btn {
 /* Side Menu */
 
 #sidebar-wrapper {
-  margin-right: -250px;
-  right: 0;
-  width: 250px;
-  background: #2EA19A;
-  position: fixed;
-  height: 100%;
-  overflow-y: auto;
-  z-index: 1000;
-  -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -ms-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
+margin-right: -250px;
+right: 0;
+width: 250px;
+background: #1F5F61;
+position: fixed;
+height: 100%;
+overflow-y: auto;
+z-index: 1000;
+-webkit-transition: all 0.4s ease 0s;
+-moz-transition: all 0.4s ease 0s;
+-ms-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
 }
 
 .sidebar-nav {
@@ -764,20 +781,24 @@ footer {
 
 .list-inline li i {
   margin-right: 15px;
-  width: 58px;
-  padding-top: 13px;
-  height: 58px;
+  width: 44px;
+  padding-top: 8px;
+  height: 44px;
   font-size: 30px;
   border: 1px solid rgb(47, 106, 142);
   color: rgb(47, 106, 142);
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
+  transform: scaleX;
+  transform: rotate(25deg);
 }
 
 .list-inline li i:hover {
   color: #fff;
   background-color: rgb(47,106,142);
+  transform: rotate(0deg);
+  cursor: pointer;
 }
 
 .top-scroll {
