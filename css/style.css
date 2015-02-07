@@ -301,8 +301,8 @@ transition: all 0.4s ease 0s;
   background: none;
 }
 
-.sidebar-brand hr{
-  margin: 10px 0px 20px 0px;
+.sidebar-brand hr {
+  margin: 8px 0px 87px 0px;
 }
 
 #menu-toggle {
